@@ -11,7 +11,7 @@ class Books extends Component {
   }
 
   searchBook = (event) => {
-    event.preventDefault();
+    event.preventDefault(); 
     fetch(`https://www.googleapis.com/books/v1/volumes?q=${this.searchValue}`)
     .then(res => res.json())
     .then(results => console.log(results));
