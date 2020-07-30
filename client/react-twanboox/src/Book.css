@@ -1,0 +1,27 @@
+hr {
+  width:840px;
+  margin: auto;
+}
+
+img {
+  margin-left: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 160px;
+  height: 260px;
+}
+
+.author {
+  font-size: 15px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.info {
+  margin-left: 70px;
+  display: inline-block;
+  position: relative;
+  bottom: 200px;
+}
