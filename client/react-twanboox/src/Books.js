@@ -10,16 +10,18 @@ class Books extends Component {
     }
   }
 
+  getSearchValue = (event) => {
+    console.log();
+    this.setState({ searchValue : event.target.value })
+  }
+
   searchBook = (event) => {
-    event.preventDefault(); 
-    fetch(`https://www.googleapis.com/books/v1/volumes?q=${this.searchValue}`)
+    event.preventDefault();  
+    fetch(`https://www.googleapis.com/books/v1/volumes?q=${this.state.searchValue}`)
     .then(res => res.json())
     .then(results => console.log(results));
   }
 
-  getSearchValue = (event) => {
-    this.setState({ searchValue : event.target.value })
-  }
 
   render() {
     return (
