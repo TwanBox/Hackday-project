@@ -8,16 +8,14 @@ function BookBoard(props) {
         key={i}
         author={book.volumeInfo.authors}
         title={book.volumeInfo.title}
-        // description={book.searchInfo.textSnippet}
+        description={book.searchInfo.textSnippet}
         pageCount={book.volumeInfo.pageCount}
         image={book.volumeInfo.imageLinks.thumbnail}
         language={book.volumeInfo.language}
-        bookOrEbook={book.volumeInfo.printType}
-        // ISBN={book.volumeInfo.industryIdentifiers[0].identifier}
+        categorie={book.volumeInfo.categories}
         yearPublished={book.volumeInfo.publishedDate}
-        averageRating={book.volumeInfo.averageRating}
-        totalRatings={book.volumeInfo.ratingsCount}
-        // buyLink={book.saleInfo.buyLink}
+        averageRating={`${book.volumeInfo.averageRating * 20}%`}
+        buyLink={book.saleInfo.buyLink}
         // price={book.saleInfo.listPrice.amount}
       /> )}
     </div>

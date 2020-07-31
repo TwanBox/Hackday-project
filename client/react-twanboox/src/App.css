@@ -1,0 +1,13 @@
+.emptyState {
+  width: 400px;
+  height: 400px;
+  margin-left: 520px;
+  margin-top: 70px;
+}
+
+.msg {
+  text-align: center;
+  position: relative;
+  bottom: 140px;
+  color: rgb(107, 107, 107);
+}

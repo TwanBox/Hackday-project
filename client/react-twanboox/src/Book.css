@@ -17,11 +17,52 @@ img {
 
 .title {
   font-size: 20px;
+  font-weight: bold;
 }
 
 .info {
   margin-left: 70px;
   display: inline-block;
   position: relative;
-  bottom: 200px;
+  bottom: 70px;
+}
+
+.btn {
+  margin-top: 20px;
+  display: block;
+}
+
+.description {
+  color: gray;
+}
+
+.cart {
+  display: inline-block;
+  padding-left: 2px;
+}
+/***************************** Star Rating styling *************************/
+
+.stars-outer {
+  display: inline-block;
+  position: relative;
+  font-family: FontAwesome;
+}
+
+.stars-outer::before {
+  content: "☆☆☆☆☆";
+  color: lightgray;
+}
+
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 90%;
+}
+
+.stars-inner::before {
+  content: "⭐⭐⭐⭐⭐";
+  color: #f8ce0b;
 }
