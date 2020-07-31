@@ -15,7 +15,7 @@ function Book(props) {
           <div class="stars-inner" style={{width: props.averageRating}}></div>
         </div>
         <div className="cart"> 
-          <button href={props.buyLink} class="btn-small btn-flat gray lighten-5"><i class="material-icons">local_grocery_store</i></button>
+          <button href={props.buyLink} class="btn-small btn-flat gray lighten-5"><i class="material-icons">add local_grocery_store</i></button>
           </div>
           <button class="btn waves-effect waves-light blue" type="button" name="addToShelf">
         <i class="material-icons right">queue</i> Add to my Shelf
