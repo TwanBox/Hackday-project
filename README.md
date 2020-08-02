@@ -34,5 +34,5 @@ The first step would be making sure that I can actually access the google maps A
 
 I started off with creating some mockups for the app.
 I also created a graphic with my component structure
-![](Screenshot 2020-07-31 at 11.56.50.png)
+![](client/react-twanboox/public/Screenshot 2020-07-31 at 11.56.50.png)
 
