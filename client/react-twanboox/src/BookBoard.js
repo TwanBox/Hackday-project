@@ -8,7 +8,7 @@ function BookBoard(props) {
         key={i}
         author={book.volumeInfo.authors}
         title={book.volumeInfo.title}
-        description={book.searchInfo.textSnippet}
+        // description={book.searchInfo.textSnippet}
         pageCount={book.volumeInfo.pageCount}
         image={book.volumeInfo.imageLinks.thumbnail}
         language={book.volumeInfo.language}

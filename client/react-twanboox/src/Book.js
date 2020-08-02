@@ -9,8 +9,8 @@ function Book(props) {
       <div className="info">
         <h3 className="author">by {props.author}</h3>
         <h2 className="title">{props.title}</h2>
-        <span>{props.language} | {props.categorie} | {props.yearPublished} | {props.pageCount} pages</span>
-        <p className="description">{props.description.substr(0, 70)}...</p>
+        <span>{props.language} | {props.categorie} | {props.yearPublished} | {props.pageCount} pages</span><br></br>
+        {/* <p className="description">{props.description.substr(0, 70)}...</p> */}
         <div class="stars-outer">
           <div class="stars-inner" style={{width: props.averageRating}}></div>
         </div>
